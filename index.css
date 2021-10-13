@@ -1,0 +1,203 @@
+/*Phone version*/
+.dash{
+    width: 60%;
+    margin-bottom: 70px;
+}
+.connection{
+    margin-top: 25%;
+}
+.content img{
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 230px;
+}
+
+.content .challenge .reminders{
+    border-width: 6px;
+    border-style: dashed;
+    color: rgb(121 6 32);
+    width: 24%;
+    padding-bottom: 13%;
+    padding-right: 0;
+    margin-right: 25px;
+}
+
+.content .challenge h2{
+    color: #e57676;
+    text-align: center;
+}
+
+
+.content .challenge .reminders .dashTwo{
+    margin-bottom: 40px;
+}
+
+.content .news{
+    width: 100%;
+}
+.content h3{
+    margin-left: 5%;
+}
+.content p{
+    margin: 10% 9%;
+}
+
+.content .spotlight p{
+    margin: 10% 9%;
+    font-size: 16px;
+}
+
+.content .spotlight h2{
+    text-align: center;
+    margin: 0;
+}
+
+.content .challenge{
+    border-width: 6px;
+    border-style: dashed;
+    color: rgb(121 6 32);
+    padding-bottom: 13%;
+    padding-right: 0;
+    margin-right: 25px;
+}
+
+.content .challenge h2{
+    color: #e57676;
+    text-align: center;
+}
+.content video{
+    display: block;
+    margin: auto;
+}
+span img{
+    width: 40%;
+    padding-bottom: 0;
+}
+.content footer p{
+    margin: 0% 4%;
+    padding:0;
+    font-size: 10px;
+}
+footer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 415px) and (max-width: 1024px){
+    .svgTwo svg{
+        position: absolute;
+        z-index: -5;
+        top: 35%;
+    }
+    .logo img{
+        width: 500px;
+        height: auto;
+    }
+
+    .content .challenge{
+        padding-bottom: 3%;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+    }
+
+    .dashTwo{
+        width: 40%;
+    }
+    .content img{
+        display: flex;
+        object-fit: cover;
+        width: 100%;
+        height: 400px;
+    }
+    .content h3{
+        margin: 5% 12%;
+    }
+    .content .spotlight p{
+        margin: 5% 12%;
+        font-size: x-small;
+    }
+}
+
+/*Computer version*/
+@media only screen and (min-width: 1023px) {
+    .logo{
+        top: 0%;
+    }
+
+    .frontPair{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: white;
+        z-index: 4;
+    }
+
+    .connection{
+        margin-top: 30%;
+    }
+    
+   
+    .content .challenge .dashTwo{
+        margin-bottom: 40px;
+    }
+    .content .news{
+        width: 100%;
+        display: flex;
+        position: relative;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+
+    .content img{
+        display: flex;
+        object-fit: cover;
+        width: 50%;
+        height: auto;
+    }
+
+    footer{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .whales{
+        display: flex;
+    }
+
+    .info{
+        display: block;
+    }
+    .content h3{
+        margin: 0% 8%;
+    }
+    .content p{
+        margin: 7% 18%;
+    }
+    .content .spotlight p{
+        margin: 4% 20%;
+        font-size: small;
+    }
+    .info p{
+        font-family: 'Amiko', sans-serif;
+        margin: 5% 10%;
+        font-size: small;
+    }
+
+    .dashTwo{
+        width: 30%;
+    }
+
+    .aboutUs{
+        display: flex;
+        width: 100%;
+    }
+
+    .goals{
+        display: block;
+        width: 50%;
+    }
+
+}

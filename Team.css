@@ -1,0 +1,102 @@
+/*Phone version*/
+.dash{
+    width: 30%;
+}
+.connection{
+    margin-top: 10%;
+}
+.content img{
+    display: flex;
+    width: 40%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content h2{
+    color: #ecad1f;
+}
+
+.content h3{
+    text-align: center;
+    margin-bottom: 0;
+}
+.content p{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20%;
+}
+
+.eagle img{
+    width: 38%;
+    position: absolute;
+    right: 1%;
+    top: 62px;
+    z-index: -1;
+}
+span img{
+    width: 40%;
+    padding-bottom: 0;
+}
+
+@media only screen and (min-width: 415px) and (max-width: 1024px){
+    .logo{
+        position: absolute;
+        z-index: -3;
+        left: 20%;
+        top: 0%;
+    }
+    .content img{
+        width: 30%;
+    }
+    .dashTwo{
+        width: 40%;
+    }
+}
+
+/*Computer version*/
+@media only screen and (min-width: 1023px) {
+    .logo{
+        bottom: 50%;
+    }
+
+    span img{
+        width: 40%;
+        padding-bottom: 0;
+    }
+
+    .pair{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        background-color: white;
+        z-index: 4;
+    }
+    .pair img{
+        width: 40%;
+        height: auto;
+    }
+
+    .alone{
+        display: block;
+    }
+
+    .connection{
+        margin-top: 28%;
+    }
+
+    .content h3{
+        margin-top: 10%;
+        margin-bottom: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .member{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}

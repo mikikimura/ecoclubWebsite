@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Club</title>
+    <link rel="shortcut icon" type="image/png" href="./favIconEco.png">
+    <link href="./Articles.css" type="text/css" rel="stylesheet">
+    <link href="./allStyle.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=PT+Serif:wght@400;700&display=swap"
+     rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a name="top"></a>
+        <div class="svgOne">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#c2cfb2" fill-opacity="1" d="M0,128L34.3,154.7C68.6,181,137,235,206,229.3C274.3,224,343,160,411,144C480,128,549,160,617,144C685.7,128,754,64,823,42.7C891.4,21,960,43,1029,48C1097.1,53,1166,43,1234,42.7C1302.9,43,1371,53,1406,58.7L1440,64L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+        </div>
+        <div class="svgTwo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fad199" fill-opacity="1" d="M0,64L14.1,58.7C28.2,53,56,43,85,58.7C112.9,75,141,117,169,117.3C197.6,117,226,75,254,96C282.4,117,311,203,339,224C367.1,245,395,203,424,197.3C451.8,192,480,224,508,240C536.5,256,565,256,593,224C621.2,192,649,128,678,117.3C705.9,107,734,149,762,160C790.6,171,819,149,847,154.7C875.3,160,904,192,932,202.7C960,213,988,203,1016,192C1044.7,181,1073,171,1101,138.7C1129.4,107,1158,53,1186,64C1214.1,75,1242,149,1271,165.3C1298.8,181,1327,139,1355,117.3C1383.5,96,1412,96,1426,96L1440,96L1440,320L1425.9,320C1411.8,320,1384,320,1355,320C1327.1,320,1299,320,1271,320C1242.4,320,1214,320,1186,320C1157.6,320,1129,320,1101,320C1072.9,320,1045,320,1016,320C988.2,320,960,320,932,320C903.5,320,875,320,847,320C818.8,320,791,320,762,320C734.1,320,706,320,678,320C649.4,320,621,320,593,320C564.7,320,536,320,508,320C480,320,452,320,424,320C395.3,320,367,320,339,320C310.6,320,282,320,254,320C225.9,320,198,320,169,320C141.2,320,113,320,85,320C56.5,320,28,320,14,320L0,320Z"></path></svg>
+        </div>
+        <div class="logo">
+            <img src="./bee.png">
+        </div>
+        <nav>
+            <div class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html"><u>HOME</u></a>  
+                    </li>
+                    <li>
+                        <a href="Articles.html">ARTICLES</a>  
+                    </li>
+                    <li>
+                        <a href="Links.html">LINKS</a>  
+                    </li>
+                    <li>
+                        <a href="Team.html">EXECUTIVES</a> 
+                    </li>
+                </ul>
+            </div>
+            <div class="computerNav">
+                <img src="./NidoEagleLogo.png">
+                <ul>
+                    <li>
+                        <a href="index.html"><u>HOME</u></a> 
+                    </li>
+                    <li>
+                        <a href="Articles.html">ARTICLES</a>  
+                    </li>
+                    <li>
+                        <a href="Links.html">LINKS</a>  
+                    </li>
+                    <li>
+                        <a href="Team.html">EXECUTIVES</a> 
+                            <!--
+                            <ul class="subpage">
+                                <li><a href="acomplishments.html">Acomplishments</a></li>
+                            </ul> -->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.toggle').click(function(){
+                    $('.toggle').toggleClass('active')
+                    $('.menu').toggleClass('active')
+                })
+            })
+        </script>
+        
+        <div class="opening">
+            <h1>ECO-CLUB</h1>
+        </div>
+    </header>
+    <div class="content">
+        <ul class="connection">
+            <li><a href="#main">Main Article</a></li>
+            <li><a href="#animals">About vital species</a></li>
+        </ul>
+            <div class="spotlight">
+                <h2 id="main"><u>Fast Fashion</u></h2>
+                <p>
+                    <b>What is “Fast fashion”?:</b><br>Nowadays, “Fast fashion” clothing brands such as Forever 21, SheIn and Urban Outfitters<a href="#section1">[1]</a> are very popular - and also incredibly harmful towards the environment. 
+                    If you don’t know what they are, “fast fashion” brands are companies that sell cheap clothes in order to quickly keep up with or create fashion trends<a href="#section1">[2]</a>. These stores produce clothes at a rapid rate and by design, 
+                    these items of clothing are made to be replaced quickly. In fact, the quality of these items can be so cheap that lots of donated clothes ends up falling apart before arriving at consignment stores. According to a 2017 Forbes article, 
+                    only about 10% of donated clothes actually got resold, while the rest ends up in landfills<a href="#section1">[3]</a>.
+                    <br><b>The harm behind the production of fast fashion:</b><br>
+                    It’s wasteful. Like mentioned before, a lot of clothes end up in landfills and a study found that in the US alone, 13 trillion tons of clothes get sent to landfills every year. 
+                    These clothes stay there for around 200 years, while leaving behind chemicals dyes which contaminate the soil and groundwater around it<a href="#section1">[4]</a>. On top of this, “fast fashion” is bad for the environment because of the CO2 emissions caused by the production of clothes. 
+                    Statistics show that by 2030, CO2 emissions from “fast fashion” brands are predicted to increase by 60%, to 2.8 billion tons.<a href="#section1">[5]</a> Furthermore, textile dyeing is considered one of the largest causes of pollution of clean water in the world<a href="#section1">[6]</a>. 
+                    On top of this, the materials in which many of these brands use to produce garments of clothing are also bad for the environment. 
+                    For example, when clothes made out of polyester, which is a commonly used material for “fast fashion” companies, are washed, tiny fragments of microfibres are shed, which add to the plastic in the ocean. 
+                    This is because these microfibres are so small that they can pass through sewages into waterways and they also are not biodegradable<a href="#section1">[7]</a>. Another example could be cotton. Toxic chemicals are used when growing cotton, which uses large amounts of water and pesticides in order to avoid crop failure. 
+                    These chemicals also cause defects in the farmers growing the cotton and their children<a href="#section1">[8]</a>.
+                    <br><b>What you can do: Invest in some higher quality clothes because in the long run, you’re saving more money.</b><br> 
+                    More sustainable clothing brands you could buy from include: Levi’s, H&M Conscious (their environmentally friendlier collection), 
+                    Patagonia, Athleta, Alternative Apparel, People Tree, Pact, and more<a href="#section1">[9]</a>. Although it can be difficult to stop shopping at your favorite stores, consider at least reducing how much you buy from these 
+                    “fast fashion” brands - it’ll be much better for the environment, for your soul, and for your carbon footprint. 
+                    <br><br>By Sarah Rubio
+
+                </p>
+            </div> 
+                <footer>
+                    <p id="section1">[1]  Lauren. “8 Fast Fashion Brands to Avoid at All Costs.” The Laurie Loo, The Laurie Loo, 16 Jan. 2019, thelaurieloo.com/blog/fast-fashion-brands-to-avoid. 
+                    </p>
+                    <p id="section1">[2]  “Fast Fashion.” Merriam-Webster, Merriam-Webster, www.merriam-webster.com/dictionary/fast fashion. 
+                    </p>
+                    <p id="section1">[3] Quora. “Fast Fashion Is A Disaster For Women And The Environment.” Forbes, Forbes Magazine, 26 July 2017, www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disaster-for-women-and-the-environment/. 
+                    </p>
+                    <p id="section1" >[4] Ibid
+                    </p>
+                    <p id="section1" >[5] Ibid
+                    </p>
+                    <p id="section1" >[6] “The Environmental Costs of Fast Fashion.” The Independent, Independent Digital News and Media, www.independent.co.uk/life-style/fashion/environment-costs-fast-fashion-pollution-waste-sustainability-a8139386.html. 
+                    <p id="section1" >[7] Ibid
+                    </p>
+                    <p id="section1" >[8] Ibid
+                    </p>
+                    <p id="section1" >[9]  Guide, Staff. “35 Ethical & Sustainable Clothing Brands Betting Against Fast Fashion.” The Good Trade, The Good Trade, 26 May 2020, www.thegoodtrade.com/features/fair-trade-clothing. 
+
+                    </p>
+                </footer>
+                <div class="spotlight">
+                    <br><h2><u>Issue of Fossil Fuels</u></h2>
+                    <p>
+                        Why is it so hard for countries all over the world to quit fossil fuels? The answer is simple, yet disheartening: to change from fossil fuels to renewable energy, is to change the world’s whole economy, which is not an easy thing at that. 
+                        Over the years our planet grew increasingly dependent on the use of fossil fuels such as natural gas, oil, and coal. Now, these energy sources fuel major industries that supply the economy of our planet, 
+                        and getting rid of them could mean a major economic reform. The problem here is that we do not have other options, in fact, there are many new modern technologies involving renewable energy that have already 
+                        begun being implemented in places around the world. These technologies work by capturing sunlight, running water, or wind and generating electricity and power from that energy. These are infinite sources that will never run out, 
+                        unlike fossil fuels. However, in many ways, there are not yet any technologies that can replace some of the characteristics of fossil fuels, such as their durability in long haul transportation. Nevertheless, some solutions exist, 
+                        the world now needs governments ready and willing to start implementing them. Unfortunately, the use of fossil fuels is very closely tied with politics, and enforcing renewable energies in many countries will depend on the government.
+                        This is not so much a big problem in MEDCs, but more so for developing countries, as it is crucial that they are led down a cleaner path. Currently, fossil fuels are “still the cheapest, most reliable energy resources available”, 
+                        and CO2 is very closely tied with economic growth. Many argue that it is unfair to refuse LEDCs the use of fossil fuels to develop their economies, since rich countries got the chance to do that for hundreds of years, and now the planet is 
+                        suffering from its effects. This is like saying that developing countries are entitled to making the same mistakes that the rest of the world made. Ultimately, it is important that the whole world work together and give every nation the 
+                        opportunity to change to renewable energy and stabilize its economy that way. Now more than ever, after years of extracting resources and destroying our planet, humanity must work together to save it, and save us. 
+                        <br>By Ines Alvim 
+                    </p>
+                </div>
+        <h1 id="animals">Vital Endangered Animals</h1>
+        <div class="dashTwo"></div>
+        <div class="whales">
+            <img src="./humpback-whale-1209297_1920.jpg">
+            <div class="info">
+                <h3>Big Whales & Phytoplanktons:</h3>
+                <p>
+                    Not only are whales gigantic, but they are crucial to our planet. They increase reproduction and provide nutrients that are very scarce in the ocean, 
+                    to the phytoplanktons. These microorganisms provide about 50%~80% of the oxygen we breathe, and further take in great amounts of carbon dioxide: with photosynthesis. 
+                    About “hundreds of thousands of tons of carbon each year”<a href="#section2">[1]</a> are sequenced by phytoplanktons. Furthermore, a single big whale takes in about 33 tonnes of CO2 in their lifetime, 
+                    and in their death, they provide for ecosystems in the depth of the ocean and takes the CO2 with them for years.<a href="#section2">[2]</a> Both the smallest and biggest organisms work together to delay the effects of climate 
+                    change evoked by humans and balance the biosphere. 
+                    We humans depend on phytoplanktons and phytoplanktons depend on whales.<br><br> “Save the whales, save the world!”<a href="#section2">[3]</a>- Whale and Dolphin Conservation. 
+                    <br>By Miki Kimura
+                    <br>Source:<a href="https://us.whales.org/green-whale/" target="./blank"> https://us.whales.org/green-whale/</a> Please check out their website for more information! 
+                </p>
+                <footer>
+                    <p id="section2" style="font-size: xx-small; line-height: 1;">[1] "The Green Whale - Whale & Dolphin Conservation USA." https://us.whales.org/green-whale/. Accessed 4 Sep. 2020.</p>
+                    <p id="section2" style="font-size: xx-small; line-height: 1;">[2] Ibid
+                    <p id="section2" style="font-size: xx-small; line-height: 1;">[3] Ibid
+                </footer>
+            </div>
+        </div>
+        <div class="whales">
+            <img src="./boris-smokrovic-gr7ZkoZnHXU-unsplash.jpg">
+            <div class="info">
+                <h3>Bees</h3>
+                <p>
+                    The fuzzy pollinators are one of the most vital species on Earth. 
+                    They contribute heavily towards the life cycles of several plant species, 
+                    of which 70% are crops we consume, such as apples, tomatoes, and almonds. However, their symbiotic relationship 
+                    with plants (and by extension, us) is being threatened by habitat destruction, loss of food sources, and pesticides. 
+                    Although it is hard to admit, we’re part of the reason why bee populations are shrinking--but here’s what you can do to combat it. 
+                    You can learn more about the species and the problems that they are facing by simply delving into the topic, create a bee hotel (nice CAS project!), 
+                    or complete bee surveys in order to further the knowledge we possess regarding the problem. To learn more about the projects you can pursue, check out <a href="https://friendsoftheearth.uk/bees/why-do-we-need-bees" target="./blank">Friends of the Earth</a>. 
+                    <br>By Daniel Kim 
+                    <br>Source:<a href="https://interestingengineering.com/11-vital-species-we-need-to-save-the-planet" target="./blank"> https://interestingenginee<br>ring.com/11-vital-species-we<br>-need-to-save-the-planet</a>
+                    <br><a href="https://friendsoftheearth.uk/bees/why-do-we-need-bees" target="./blank"> https://friendsoftheearth<br>.uk/bees/why-do-we-need-bees</a><br><a href="https://en.wikipedia.org/wiki/List_of_crop_plants_pollinated_by_bees" target="./blank"> https://en.wikipedia.<br>org/wiki/List_of_<br>crop_plants_pollinated<br>_by_bees</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="end">
+        <h4>Sign-up: <a href="https://docs.google.com/forms/d/e/1FAIpQLScX6SxfPjTvsJoFaPiJvAeawS3QUfbiVsqpTJKb70DPR03BLw/viewform?usp=sf_link" 
+            target="_blank">here</a></h4>
+        <h4 style="margin-bottom: 1%;">
+            Instagram:<a href="https://www.instagram.com/nido.ecoclub/" target="_blank">@nido.ecoclub</a>
+        </h4>
+        <span><img src="./sketchedWhale.png"></span>
+    </div>
+    <div class="backToTop">
+        <a href="#top">Back to top</a>
+    </div>
+</body>
+</html>

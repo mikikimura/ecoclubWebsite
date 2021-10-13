@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Club</title>
+    <link rel="shortcut icon" type="image/png" href="./favIconEco.png">
+    <link href="./Team.css" type="text/css" rel="stylesheet">
+    <link href="./allStyle.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=PT+Serif:wght@400;700&display=swap"
+     rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a name="top"></a>
+        <div class="svgOne">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#c2cfb2" fill-opacity="0.95" d="M0,288L30,282.7C60,277,120,267,180,229.3C240,192,300,128,360,112C420,96,480,128,540,138.7C600,149,660,139,720,133.3C780,128,840,128,900,122.7C960,117,1020,107,1080,112C1140,117,1200,139,1260,165.3C1320,192,1380,224,1410,240L1440,256L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
+        </div>
+        <div class="svgTwo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFD199" fill-opacity="1" d="M0,128L34.3,122.7C68.6,117,137,107,206,117.3C274.3,128,343,160,411,149.3C480,139,549,85,617,80C685.7,75,754,117,823,128C891.4,139,960,117,1029,112C1097.1,107,1166,117,1234,149.3C1302.9,181,1371,235,1406,261.3L1440,288L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+        </div>
+        <div class="logo">
+            <img src="./animalsOne.png">
+        </div>
+        <nav>
+            <div class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                    <a href="index.html">HOME</a>  
+                    </li>
+                    <li>
+                        <a href="Articles.html">ARTICLES</a>  
+                    </li>
+                    <li>
+                        <a href="Links.html">LINKS</a>  
+                    </li>
+                    <li>
+                        <a href="Team.html"><u>EXECUTIVES</u></a> 
+                    </li>
+                </ul>
+            </div>
+            <div class="computerNav">
+                <img src="./NidoEagleLogo.png">
+                <ul>
+                    <li>
+                    <a href="index.html">HOME</a>  
+                    </li>
+                    <li>
+                        <a href="Articles.html">ARTICLES</a>  
+                    </li>
+                    <li>
+                        <a href="Links.html">LINKS</a>  
+                    </li>
+                    <li>
+                        <a href="Team.html"><u>EXECUTIVES</u></a> 
+                            <!--
+                            <ul class="subpage">
+                                <li><a href="acomplishments.html">Acomplishments</a></li>
+                            </ul> -->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.toggle').click(function(){
+                    $('.toggle').toggleClass('active')
+                    $('.menu').toggleClass('active')
+                })
+            })
+        </script>
+        <div class="opening">
+            <h1>ECO-CLUB</h1>
+            <span class="eagle">
+                <img src="./eagle.png">
+            </span>
+        </div>
+    </header>
+    <div class="content">
+        <ul class="connection">
+            <li><a href="#executives">Executives</a></li>
+        </ul>
+        <h1 id="executives">EXECUTIVES</h1>
+        <div class="dashTwo"></div>
+        <div class="pair">
+            <div class="alone">
+                <img src="./ines.png">
+                <h3>INES A.</h3>
+                <div class="dash"></div>
+                <p>
+                    mariaines.alvim@student.nido.cl
+                </p>
+            </div>
+                <div class="alone">
+                <img src="./sara.png">
+                <h3>SARA B.</h3>
+                <div class="dash"></div>
+                <p>
+                    sara.bernstein@student.nido.cl
+                </p>
+            </div>
+        </div>
+        <div class="pair">
+            <div class="alone">
+                <img src="./mars.png">
+                <h3>MARGHERITA C.</h3>
+                <div class="dash"></div>
+                <p>
+                    margherita.chiti@student.nido.cl
+                </p>
+            </div>
+            <div class="alone">
+                <img src="./carla.png">
+                <h3>CARLA R.</h3>
+                <div class="dash"></div>
+                <p>
+                    carla.ramakers@student.nido.cl
+                </p>
+            </div>
+        </div>
+        <div class="pair">
+            <div class="alone">
+                <img src="./miki.png">
+                <h3>MIKI K.</h3>
+                <div class="dash"></div>
+                <p>
+                   miki.kimura@student.nido.cl
+                </p>
+            </div>
+        </div>
+        <!--
+        <h2 id="members">Members</h2>
+        <div class="member">
+            <h3>Alex B.</h3>
+            <h3>Bob B.</h3>
+            <h3>Alec B.</h3>
+            <h3>SAlly B.</h3>
+            <h3>harb B.</h3>
+            <h3>Robby B.</h3>
+            <h3>Molly B.</h3>
+            <h3>Kelly B.</h3>
+        </div>-->
+    </div>
+    
+    <div class="end">
+        <h4>Sign-up: <a href="https://docs.google.com/forms/d/e/1FAIpQLScX6SxfPjTvsJoFaPiJvAeawS3QUfbiVsqpTJKb70DPR03BLw/viewform?usp=sf_link" 
+            target="_blank">here</a></h4>
+        <h4 style="margin-bottom: 1%;">
+            Instagram:<a href="https://www.instagram.com/nido.ecoclub/" target="_blank">@nido.ecoclub</a>
+        </h4>
+        <span><img src="./sketchedWhale.png"></span>
+    </div>
+    <div class="backToTop">
+        <a href="#top">Back to top</a>
+    </div>
+</body>
+</html>

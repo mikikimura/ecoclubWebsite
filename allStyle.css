@@ -1,0 +1,365 @@
+/*Phone*/
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+}
+
+a{
+    color: #c5a660;
+}
+/*main backdrops by carla*/
+.logo{
+    position: absolute;
+    z-index: -3;
+    left: 2%;
+    top: 0%;
+}
+
+.logo img{
+    width: 300px;
+    height: auto;
+}
+
+.svgOne svg{
+    position: absolute;
+    z-index: -5;
+}
+
+.svgTwo svg{
+    position: absolute;
+    z-index: -5;
+    top: 40%;
+}
+
+/*toggle*/
+.toggle{
+    width: 35px;
+    height: 5px;
+    position: absolute;
+}
+.toggle span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+    position: relative;
+    top: 25px;
+    left: 10px;
+    background: #3e89a0;
+    border-radius: 3px;
+    z-index: 1;
+    cursor: pointer;
+}
+.toggle.active{
+    transition-delay: 1s;
+    transform: rotate(0deg);
+    z-index: 1;
+}
+/*menu*/
+.menu{
+    width: 100%;
+    height: 16vh;
+    overflow: auto;
+    z-index: 1;
+    visibility: hidden;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.menu.active{
+    visibility: visible;
+    background-color: #ecad1f;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.menu ul{
+    position: relative;
+    top: 70%;
+    left: 50%;
+    list-style-type: none;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.menu ul li ul{
+    position: relative;
+    top: 2px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+.menu ul li a{
+    position: relative;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    display: block;
+    text-decoration: white overline;
+    font-family: "Amiko";
+}
+.menu ul li ul li::after{
+    top: 10%;
+}
+    
+.menu ul li ul{
+    display: none;
+}
+
+.menu ul li:hover ul{
+    display: block;
+}
+
+/*computer navigation*/
+.computerNav{
+    display: none;
+}
+
+/*back to the top button*/
+.backToTop{
+    display: block;
+    position: fixed;
+    bottom: 7%;
+    left: 2%;
+    background: white;
+    width: 10%;
+    height: 7%;
+    color: #ecad1f;
+    border-radius: 25px;
+    border-style: solid;
+    text-align: center;
+    padding-top: 3px;
+    z-index: 2;
+}
+.backToTop a{
+    text-decoration: none;
+    color: #ecad1f;
+    font-size: x-small;
+}
+/*Opening*/
+.opening h1{
+    font-size: 90px;
+    margin-left: 15%;
+    margin-top: 5%;
+    color: #ADE576;
+    visibility: hidden;
+}
+
+/*dash*/
+.dash{
+    height: 4px;
+    background-color: #F9CB76;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dashTwo{
+    width: 60%;
+    height: 4px;
+    background-color: #584944c7;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+/*connections*/
+.connection{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin-bottom: 10%;
+}
+
+.connection a{
+    list-style-type: none;
+    color: #31476B;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Amiko', sans-serif;
+    font-size: x-small;
+    cursor: pointer;
+}
+
+/*content*/
+.content h1{
+    text-align: center;
+    color: #9db7a6;
+    font-family: 'PT Serif', serif;
+}
+
+.content h2{
+    font-family: 'PT Serif', serif;
+    margin-left: 10%;
+}
+
+.content h3{
+    font-family: 'PT Serif', serif;
+    color: #31476B;
+}
+
+.content p{
+    font-family: 'Amiko', sans-serif;
+}
+
+/*end*/
+.end{
+    line-height: 55%;
+    text-align: right;
+}
+
+.end h4{
+    font-family: 'PT Serif', serif;
+    color: #e47f35;
+}
+.end a{
+    color: #928989;
+    margin-right: 5%;
+}
+
+/*IPad*/
+@media only screen and (min-width: 415px) and (max-width: 1024px){
+    .logo{
+        position: absolute;
+        z-index: -3;
+        left: 20%;
+        top: 0%;
+    }
+    .logo img{
+        width: 500px;
+    }
+
+    .menu{
+        height: 12vh;
+    }
+    .connection{
+        margin-top: 28%;
+    }
+    
+    .connection a{
+        font-size: medium;
+    }
+    .menu ul{
+        top: 50%;
+    }
+    
+    .menu ul li a{
+        margin: 0px 45px;
+    }
+    .backToTop{
+        bottom: 3%;
+        height: 3%;
+    }
+}
+
+
+/*Computer*/
+@media only screen and (min-width: 1023px) {
+    .logo{
+        position: absolute;
+        z-index: -3;
+        left: 25%;
+    }
+    .logo img{
+        width: 700px;
+        height: auto;
+    }
+
+    .svgTwo svg{
+        position: absolute;
+        z-index: -5;
+        top: 60%;
+    }
+    .toggle{
+        display: none;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .computerNav{
+        display: block;
+        z-index: 1;
+        background-color: #3e89a0;
+        margin: 0;
+        border-bottom-right-radius: 80px;
+        border-bottom-left-radius: 80px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .computerNav ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        line-height: 3;
+        margin: 0;
+        padding: 0;
+    }
+
+    .computerNav ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        line-height: 3;
+        margin: 0;
+        padding: 0;
+    }
+
+    .computerNav ul li a{
+        color: white;
+        font-family: 'Amiko', sans-serif;
+        font-size: 21px;
+    }
+
+    .computerNav ul li a:hover{
+        color: #180a52;
+    }
+   
+    .computerNav img{
+        position: absolute;
+        width: 13%;
+        top: 1%;
+        right: 86%;
+    }
+    .connection a:hover{
+        background: #C2CFB2;
+    }
+    .connection a{
+        font-size: medium;
+    }
+    .dashTwo{
+        width: 30%;
+    }
+    span img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+    }
+    .backToTop{
+        bottom: 3%;
+        left: 2%;
+        width: 6%;
+        height: 3%;
+    }
+}

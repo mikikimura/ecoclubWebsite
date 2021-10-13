@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Club</title>
+    <link rel="shortcut icon" type="image/png" href="./favIconEco.png">
+    <link href="./index.css" type="text/css" rel="stylesheet">
+    <link href="./allStyle.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=PT+Serif:wght@400;700&display=swap"
+     rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a name="top"></a>
+        <div class="svgOne">
+            <svg xmlns="http://www.w3.org/2000/svg" 
+            viewBox="0 0 1440 320"><path fill="#c2cfb2" 
+            fill-opacity="1" d="M0,32L20,48C40,64,80,96,120,117.3C160,139,200,149,240,160C280,171,320,181,360,208C400,235,440,277,480,266.7C520,256,560,192,600,170.7C640,149,680,171,720,192C760,213,800,235,840,240C880,245,920,235,960,213.3C1000,192,1040,160,1080,165.3C1120,171,1160,213,1200,213.3C1240,213,1280,171,1320,176C1360,181,1400,235,1420,261.3L1440,288L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z"></path></svg>
+        </div>
+        <div class="svgTwo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFD199" fill-opacity="1" d="M0,224L80,229.3C160,235,320,245,480,218.7C640,192,800,128,960,101.3C1120,75,1280,85,1360,90.7L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+        </div>
+        <div class="logo">
+            <img src="./bear.png">
+        </div>
+        <nav>
+            <div class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html"><u>HOME</u></a>  
+                    </li>
+                    <li>
+                        <a href="Articles.html">ARTICLES</a>  
+                    </li>
+                    <li>
+                        <a href="Links.html">LINKS</a>  
+                    </li>
+                    <li>
+                        <a href="Team.html">EXECUTIVES</a> 
+                    </li>
+                </ul>
+            </div>
+            <div class="computerNav">
+                <img src="./NidoEagleLogo.png">
+                <ul>
+                    <li>
+                        <a href="index.html"><u>HOME</u></a> 
+                    </li>
+                    <li>
+                        <a href="Articles.html">ARTICLES</a>  
+                    </li>
+                    <li>
+                        <a href="Links.html">LINKS</a>  
+                    </li>
+                    <li>
+                        <a href="Team.html">EXECUTIVES</a> 
+                            <!--
+                            <ul class="subpage">
+                                <li><a href="acomplishments.html">Acomplishments</a></li>
+                            </ul> -->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.toggle').click(function(){
+                    $('.toggle').toggleClass('active')
+                    $('.menu').toggleClass('active')
+                })
+            })
+        </script>
+        
+        <div class="opening">
+            <h1>ECO-CLUB</h1>
+        </div>
+    </header>
+    <div class="content">
+        <ul class="connection">
+            <li><a href="#spotlight">Spotlight Article</a></li>
+            <li><a href="#aboutUs">About Us</a></li>
+        </ul>
+        <div class="news">
+            <div class="challenge">
+                <h2>Notifications!</h2>
+                <div class="dashTwo"></div>
+                <ul>
+                    <li>
+                       Eco-club Guess the Jar fundraiser following week! All the money will be used to fund the refurbishing of the Bergmen's Garden.
+                    </li>
+                    <br>
+                    <li>
+                        Eco-brick drive will be coming up, so please continue to make your ecobricks! 
+                    </li>
+                </ul>
+            </div>
+            <div>
+            </div>
+            <div class="reminders">
+                <h2>Reminders!</h2>
+                <div class="dashTwo"></div>
+                <ul>
+                    <li>
+                        Turn off all lights 
+                    </li>
+                    <li>
+                        Finish all food on your plate
+                    </li>
+                    <li>Buy local foods</li>
+                    <li>Be concious of shower time</li>
+                    <li>Use public transportion</li>
+                </ul>
+            </div>
+        </div>
+        <h1 id="aboutUs">About Us</h1>
+        <div class="dashTwo"></div>
+        <video width="50%" height="auto"controls><source src="./ECO-CLUB.mp4">About Us Video</video>
+        <p>
+            Eco Club is a student led club that seeks to make the school more eco-friendly, raise awareness on simple ways every individual can help, and fundraise in order to donate to non-profit organizations that are helping the environment. 
+            We plan on organizing high school events where we can raise money for a variety of environmental issues, such as helping endangered animals or volunteering to do plastic cleanups, and advocate against food waste. 
+            Through these events we want to motivate and inspire more students to act, educate themselves, and become aware. This is a topic we feel very strongly about and would like to extend participation and involvement to the whole community! 
+            If you are passionate about the environment and want to make a difference, this is the club for you!
+
+        </p>
+        <div class="aboutUs">
+            <div class="goals">
+                <h3>
+                    Our goals 
+                </h3>
+                <p>
+                    - <b>Educate</b> by sharing documentaries and informing people of the dangers our planet faces today<br><br>
+                    - <b>Spread awareness</b> by promoting environment orientated organizations<br><br>
+                    - <b>Advocate for change </b>by providing petitions and offering more environmentally safe alternatives to wasteful actions of our everyday lives<br><br>
+                    - <b>Making the school as eco-friendly as possible</b> by making creative fundraising events that involve the whole community to work together to help our planet<br><br>
+                </p>
+            </div>
+            <div class="goals">
+                <h3>
+                    Accomplishments
+                </h3>
+                <p>
+                    <b>Milk Alternatives Workshop:</b>
+                    <br>We focused on educating students about the negative environmental impacts that cow milk has on our planet and why they should change to plant-based milk(Sep 10, 2020).<br><br>
+                    <b>Publication of Eco-Club Website:</b>
+                    <br>We wanted to inform and raise awareness on certain environmental issues with the writings of the ecoclub memebers.(Oct 2, 2020).<br><br>
+                    <b>Growing Vegetable from Scraps Workshop:</b>
+                    <br>We focused on educating students about the "world's dumbest environmental problem, aka Food waste", as it is an easy solution a household can take on. We also introduced growing vegetables from scraps that are usually thrown away.(Nov 12, 2020).<br><br>
+                    <b>Eco-Friendly Lifestyle Adapting Workshop:</b> 
+                    <br>We informed students on all types of waste that could be addressed within our households; water, plastic, food, energy, and material waste. We also suggested ways to reduce waste with simple capable ways. (May 5, 2021)</b><br>
+                    <br><b>United Nation Global Leaders Competition Project Submitted:</b>
+                    <br>The GSL Competition challenges high school students to develope a project to address and target the Sustainable Developement Goals. 
+                    Ecoclub participated in the GSL with three major projects:
+                    <br><br>- A digital children's book called "Maria's Adventure" was written and illustrated to educate young generations on climate change. <a href="https://youtu.be/1Rt1Ta91L6k" target="_blank">Video Submission</a>
+                    <br><br>- Fabricating reusable masks from recycled fabric, and giving them away to community in Lo Barnechea.  
+                    <br><br>- The making of flower patch gardens using ecobricks (plastic bottles with stuffed single used-plastic) in the Comunidad Terapeutica La Tetera in Quillota.
+                    This was done through several ecobrick drive within Nido Community, which promoted the making of ecobricks in household and the collection outcome of more than 200 ecobricks. <a href="https://youtu.be/Kg_VEgMo8Co" target="_blank">Video Submission</a> 
+                    <br><br>(June 16, 2021)
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="end">
+        <h4>Sign-up: <a href="https://docs.google.com/forms/d/e/1FAIpQLScX6SxfPjTvsJoFaPiJvAeawS3QUfbiVsqpTJKb70DPR03BLw/viewform?usp=sf_link" 
+            target="_blank">here</a></h4>
+        <h4 style="margin-bottom: 1%;">
+            Instagram:<a href="https://www.instagram.com/nido.ecoclub/" target="_blank">@nido.ecoclub</a>
+        </h4>
+        <span><img src="./sketchedWhale.png"></span>
+    </div>
+    <div class="backToTop">
+        <a href="#top">Back to top</a>
+    </div>
+</body>
+</html>
